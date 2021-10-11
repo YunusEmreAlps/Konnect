@@ -3,9 +3,6 @@
   <a href="https://github.com/YunusEmreAlps/Konnect">
     <img src="ss/konnect.jpg" alt="Konnect">
   </a>
-  <a href="https://github.com/YunusEmreAlps/Konnect">
-    <img src="ss/konnect_Dark.jpg" alt="Konnect">
-  </a>
 </p>
 
 
@@ -112,3 +109,8 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 Online calls and messaging made easy
 
+<p align="center">
+  <a href="https://github.com/YunusEmreAlps/Konnect">
+    <img src="ss/konnect_dark.jpg" alt="Konnect Dark">
+  </a>
+</p>
