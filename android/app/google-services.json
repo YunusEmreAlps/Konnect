@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "225817056966",
+    "project_id": "konnect-8efd8",
+    "storage_bucket": "konnect-8efd8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:225817056966:android:063527d07d5bd9c18729c7",
+        "android_client_info": {
+          "package_name": "com.yunusemrealpu.konnect"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "225817056966-prspvr9nuhb4vqku2m406o1o3nkk7371.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.yunusemrealpu.konnect",
+            "certificate_hash": "942d5976706026e8dff6fb05eeb2939818bf4feb"
+          }
+        },
+        {
+          "client_id": "225817056966-srj74rjum0pdtooblnu591qicokhtc0k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7yooYdM49vEoey4xf28d1Tb-_Usexle8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "225817056966-srj74rjum0pdtooblnu591qicokhtc0k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
