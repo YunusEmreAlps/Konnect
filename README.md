@@ -12,11 +12,11 @@ Konnect is a messaging app for simple private communication with friends.
 
 Say "hello" to a different messaging experience. An unexpected focus on privacy, combined with all of the features you expect.
 
-• Go fast – Messages are delivered quickly and reliably, even on slow networks. Konnect is optimized to operate in the most constrained environment possible.
-• Be yourself – You can use your existing phone number and address book to securely communicate with your friends.
-• Speak up – Whether they live across town or across the ocean, Konnect’s enhanced audio and video quality will make your friends and family feel closer.
+• Go fast – Messages are delivered quickly and reliably, even on slow networks. Konnect is optimized to operate in the most constrained environment possible.<br/>
+• Be yourself – You can use your existing phone number and address book to securely communicate with your friends.<br/>
+• Speak up – Whether they live across town or across the ocean, Konnect’s enhanced audio and video quality will make your friends and family feel closer.<br/>
 
-Simple. Secure. Reliable messaging.
+Simple. Secure. Reliable messaging. Online calls and messaging made easy
 
 ## Main Features
 
@@ -104,13 +104,6 @@ Awesome! Contributions of all kinds are greatly appreciated. To help smoothen th
 ## 📝 License
 
 Distributed under the MIT License. See `LICENSE` for more information.
-
-
-<!-- SCREENSHOTS -->
-## Screenshots
-
-
-Online calls and messaging made easy
 
 <p align="center">
   <a href="https://github.com/YunusEmreAlps/Konnect">
