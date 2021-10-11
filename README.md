@@ -12,8 +12,11 @@ Konnect is a messaging app for simple private communication with friends.
 
 Say "hello" to a different messaging experience. An unexpected focus on privacy, combined with all of the features you expect.
 
-Simple. Secure.
-Reliable messaging.
+• Go fast – Messages are delivered quickly and reliably, even on slow networks. Konnect is optimized to operate in the most constrained environment possible.
+• Be yourself – You can use your existing phone number and address book to securely communicate with your friends.
+• Speak up – Whether they live across town or across the ocean, Konnect’s enhanced audio and video quality will make your friends and family feel closer.
+
+Simple. Secure. Reliable messaging.
 
 ## Main Features
 
