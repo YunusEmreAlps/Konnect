@@ -105,6 +105,14 @@ Awesome! Contributions of all kinds are greatly appreciated. To help smoothen th
 
 Distributed under the MIT License. See `LICENSE` for more information.
 
+
+<!-- SCREENSHOTS -->
+## Version 0.1.0 Screenshots
+
+Login Page               | Chat Home Page             | Chat Page               | Chat Page
+:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
+![](https://github.com/YunusEmreAlps/Konnect/tree/master/ss/v1_1.png?raw=true)|![](https://github.com/YunusEmreAlps/Konnect/tree/master/ss/v1_2.png?raw=true)|![](https://github.com/YunusEmreAlps/Konnect/tree/master/ss/v1_3.png?raw=true)|![](https://github.com/YunusEmreAlps/Konnect/tree/master/ss/v1_4.png?raw=true)|
+
 <p align="center">
   <a href="https://github.com/YunusEmreAlps/Konnect">
     <img src="ss/konnect_dark.jpg" alt="Konnect Dark">
