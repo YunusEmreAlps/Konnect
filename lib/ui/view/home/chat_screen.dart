@@ -45,6 +45,15 @@ class _ChatScreenState extends State<ChatScreen> {
 
   String content;
   bool isMe = true;
+  
+  // type of voice effect
+  // 0 -> normal
+  // 1 -> lorie
+  // 2 -> terror
+  // 3 -> uncle
+  // 4 -> funny
+  // 5 -> vacant
+  int t = 4;
 
   FirebaseStorage firebaseStorage = FirebaseStorage.instance;
 

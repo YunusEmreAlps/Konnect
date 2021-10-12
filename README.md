@@ -113,6 +113,14 @@ Login Page               | Chat Home Page             | Chat Page               
 :-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
 ![](https://github.com/YunusEmreAlps/Konnect/blob/master/ss/v1_1.png?raw=true)|![](https://github.com/YunusEmreAlps/Konnect/blob/master/ss/v1_2.png?raw=true)|![](https://github.com/YunusEmreAlps/Konnect/blob/master/ss/v1_3.png?raw=true)|![](https://github.com/YunusEmreAlps/Konnect/blob/master/ss/v1_4.png?raw=true)|
 
+
+## Version 0.1.1 Screenshots
+
+Login Page               | Chat Home Page             | Chat Page               | Chat Page
+:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
+![](https://github.com/YunusEmreAlps/Konnect/blob/master/ss/v1.1_1.png?raw=true)|![](https://github.com/YunusEmreAlps/Konnect/blob/master/ss/v1.1_2.png?raw=true)|![](https://github.com/YunusEmreAlps/Konnect/blob/master/ss/v1.1_3.png?raw=true)|![](https://github.com/YunusEmreAlps/Konnect/blob/master/ss/v1.1_4.png?raw=true)|
+
+
 <p align="center">
   <a href="https://github.com/YunusEmreAlps/Konnect">
     <img src="ss/konnect_dark.jpg" alt="Konnect Dark">

@@ -150,7 +150,7 @@ class _BubbleState extends State<Bubble> {
                             onPressed: () async {
                               aud.isPlaying
                                   ? aud.stopPlayer()
-                                  : aud.play(content);
+                                  : aud.play(content); 
                             },
                           ),
                         ],

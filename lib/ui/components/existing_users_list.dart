@@ -76,7 +76,6 @@ class _ExistingUserWidgetState extends State<ExistingUserWidget> {
         } else {
           date = '${dateCreated.day}/${dateCreated.month}/21';
         }
-
         setState(() {});
       }
     });
