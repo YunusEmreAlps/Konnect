@@ -1,10 +1,20 @@
-import 'package:firebase_core/firebase_core.dart';
-import 'package:konnect/services/audio_provider.dart';
-import 'package:konnect/components/auth.dart';
-import 'package:konnect/screens/chat_home.dart';
-import 'package:konnect/screens/login.dart';
+// Flutter imports:
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
+
+// Package imports:
+import 'package:firebase_core/firebase_core.dart';
+import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:provider/provider.dart';
+
+// Project imports:
+import 'package:konnect/core/constants/core.dart';
+import 'package:konnect/core/service/audio_provider.dart';
+import 'package:konnect/ui/components/auth.dart';
+import 'package:konnect/ui/view/authenticate/login/login.dart';
+import 'package:konnect/ui/view/home/chat_home.dart';
+
+import 'core/init/app_localizations.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -17,15 +27,31 @@ void main() async {
 class Konnect extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    
+    SystemChrome.setSystemUIOverlayStyle(
+      SystemUiOverlayStyle(statusBarColor: Colors.transparent),
+    );
+    // Portrait Mode
+    SystemChrome.setPreferredOrientations([
+      DeviceOrientation.portraitUp,
+      DeviceOrientation.portraitDown,
+    ]);
     return MaterialApp(
-        debugShowCheckedModeBanner: false,
-        theme: ThemeData(
-          fontFamily: 'Montserrat-SemiBold',
-          textTheme: TextTheme(
-            bodyText2: TextStyle(fontSize: 15),
-          ),
+      title: AppStrings.APP_NAME,
+      debugShowCheckedModeBanner: false,
+      theme: ThemeData(
+        fontFamily: AppStrings.FONT_FAMILY,
+        textTheme: TextTheme(
+          bodyText2: TextStyle(fontSize: 15),
         ),
-        home: (userMain != null) ? ChatHome() : LoginNew());
+      ),
+      supportedLocales: [Locale("en"), Locale("tr")],
+      localizationsDelegates: [
+        AppLocalizations.delegate,
+        GlobalMaterialLocalizations.delegate,
+        GlobalWidgetsLocalizations.delegate,
+        GlobalCupertinoLocalizations.delegate,
+      ],
+      home: (userMain != null) ? ChatHome() : LoginNew(),
+    );
   }
 }

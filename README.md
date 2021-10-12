@@ -111,7 +111,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 Login Page               | Chat Home Page             | Chat Page               | Chat Page
 :-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
-![](https://github.com/YunusEmreAlps/Konnect/tree/master/ss/v1_1.png?raw=true)|![](https://github.com/YunusEmreAlps/Konnect/tree/master/ss/v1_2.png?raw=true)|![](https://github.com/YunusEmreAlps/Konnect/tree/master/ss/v1_3.png?raw=true)|![](https://github.com/YunusEmreAlps/Konnect/tree/master/ss/v1_4.png?raw=true)|
+![](https://github.com/YunusEmreAlps/Konnect/blob/master/ss/v1_1.png?raw=true)|![](https://github.com/YunusEmreAlps/Konnect/blob/master/ss/v1_2.png?raw=true)|![](https://github.com/YunusEmreAlps/Konnect/blob/master/ss/v1_3.png?raw=true)|![](https://github.com/YunusEmreAlps/Konnect/blob/master/ss/v1_4.png?raw=true)|
 
 <p align="center">
   <a href="https://github.com/YunusEmreAlps/Konnect">
