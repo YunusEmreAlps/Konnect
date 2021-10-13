@@ -42,7 +42,7 @@ class _LoginNewState extends State<LoginNew> {
                 height: 250,
               ),
             ),
-            // Animated Text
+            // Button
             Column(
               mainAxisAlignment: MainAxisAlignment.end,
               crossAxisAlignment: CrossAxisAlignment.end,
