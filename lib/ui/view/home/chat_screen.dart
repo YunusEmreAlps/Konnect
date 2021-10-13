@@ -1,4 +1,5 @@
 // Flutter imports:
+import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:flutter/material.dart';
 
 // Package imports:
@@ -78,7 +79,6 @@ class _ChatScreenState extends State<ChatScreen> {
   void initState() {
     getPermissions();
     getCurrentUser();
-
     Provider.of<AudioProvider>(context, listen: false).initRec();
     super.initState();
   }
