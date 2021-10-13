@@ -57,30 +57,6 @@ class _SplashScreenState extends State<SplashScreen> {
         child: Stack(
           fit: StackFit.expand,
           children: <Widget>[
-            Expanded(
-              flex: 3,
-              child: Column(
-      children: <Widget>[
-        Spacer(),
-        Text(
-          "WELCOME" + AppStrings.APP_NAME,
-          style: TextStyle(
-            fontSize: getProportionateScreenWidth(36),
-            color: AppColors.colorPrimary,
-            fontWeight: FontWeight.bold,
-          ),
-        ),
-        Text(
-          "Welcome to",
-          style: TextStyle(
-            color: AppColors.colorDarkGrey,
-          ),
-          textAlign: TextAlign.center,
-        ),
-      ],
-    ),
-            ),
-
             // Logo
             Center(
               child: Image.asset(
