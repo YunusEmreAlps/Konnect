@@ -6,6 +6,7 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 
 // Project imports:
 import 'package:konnect/core/constants/core.dart';
+import 'package:konnect/core/init/app_widget.dart';
 import 'package:konnect/core/model/user_model.dart';
 import 'package:konnect/ui/components/auth.dart';
 import 'package:konnect/ui/components/users_list.dart';
@@ -21,6 +22,7 @@ class SearchUsers extends StatefulWidget {
 }
 
 class _SearchUsersState extends State<SearchUsers> {
+  bool isKeyboardVisible = true;
   var _controller = TextEditingController();
   List<UserWidget> userslist = [];
 
@@ -79,14 +81,32 @@ class _SearchUsersState extends State<SearchUsers> {
               child: TextField(
                 controller: _controller,
                 decoration: InputDecoration(
-                  labelText: "Search Users by Name",
-                  labelStyle: TextStyle(color: AppColors.colorPrimary),
-                  focusedBorder: OutlineInputBorder(
-                      borderSide: BorderSide(color: Colors.black45),
-                      borderRadius: BorderRadius.circular(10)),
+                  hintText: "Search Users by Name",
+                  hintStyle: TextStyle(
+                    fontSize: 14, color: AppColors.colorBackButton,
+                  ),
+                  filled: true,
+                  fillColor: Colors.white,
+                  prefixIcon: Container(
+                    margin: EdgeInsets.only(bottom: 0),
+                    child: Icon(
+                      Icons.search,
+                      color: AppColors.colorBackButton,
+                    ),
+                  ),
                   enabledBorder: OutlineInputBorder(
-                    borderSide: BorderSide(color: Colors.black45),
-                    borderRadius: BorderRadius.circular(10),
+                    borderRadius: BorderRadius.circular(8),
+                    borderSide: BorderSide(
+                      width: 0,
+                      color: Colors.transparent,
+                    ),
+                  ),
+                  focusedBorder: OutlineInputBorder(
+                    borderRadius: BorderRadius.circular(8),
+                    borderSide: BorderSide(
+                      width: 0,
+                      color: Colors.transparent,
+                    ),
                   ),
                 ),
                 onChanged: (String str) {

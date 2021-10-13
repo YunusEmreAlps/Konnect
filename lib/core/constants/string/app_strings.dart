@@ -58,6 +58,7 @@ class AppStrings {
   static final String DONT_HAVE_AN_ACCOUNT = AppLocalizations.getString("Don't have an account? ");
   static final String ALREADY_HAVE_AN_ACCOUNT = AppLocalizations.getString("Already have an account? ");
   static final String LOGIN_GUIDE = AppLocalizations.getString("Sign in with your username and password");
+  static final String CONNECT_GOOGLE = AppLocalizations.getString("Connect with Google");
 
   // About App
   static const String FONT_FAMILY = "GILROY";

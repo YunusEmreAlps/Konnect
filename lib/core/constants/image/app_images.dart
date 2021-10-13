@@ -1,11 +1,14 @@
 // Images
 class AppImages {
   // Logo
-  static String get svgLogo => "assets/images/inTouch_logo2.svg";
+  static String get pngLogo => "assets/images/konnect.png";
+  static String get pngDarkLogo => "assets/images/konnect_dark.png";
   
   // Cover Image
   static String get pngBackgroundImage => "assets/images/bg.png";
   static String get svgBackgroundImage => "assets/images/bg.svg";
+  static String get pngSplashBackground => "assets/images/splash_bg.png";
+  static String get pngLoginBackground => "assets/images/bg2.png";
 
   //
   static String get pngUser => "assets/images/user.png";
@@ -30,6 +33,7 @@ class AppImages {
   static String get iconTwitter => "assets/icons/twitter1.svg";
   static String get iconLinkedin => "assets/icons/linkedin.svg";
   static String get iconQuestion => "assets/icons/question.svg";
+  static String get iconGoogle => "assets/icons/google-icon.svg";
   static String get iconMessage => "assets/icons/icon_message.svg";
   static String get iconMessage2 => "assets/icons/icon_message2.svg";
   

@@ -9,11 +9,10 @@ import 'package:provider/provider.dart';
 
 // Project imports:
 import 'package:konnect/core/constants/core.dart';
+import 'package:konnect/core/navigation/navigation_constants.dart';
 import 'package:konnect/core/service/audio_provider.dart';
 import 'package:konnect/ui/components/auth.dart';
-import 'package:konnect/ui/view/authenticate/login/login.dart';
-import 'package:konnect/ui/view/home/chat_home.dart';
-
+import 'package:konnect/ui/view/authenticate/splash/splashscreen.dart';
 import 'core/init/app_localizations.dart';
 
 void main() async {
@@ -51,7 +50,11 @@ class Konnect extends StatelessWidget {
         GlobalWidgetsLocalizations.delegate,
         GlobalCupertinoLocalizations.delegate,
       ],
-      home: (userMain != null) ? ChatHome() : LoginNew(),
+      initialRoute: NavigationConstants.SPLASH,
+      routes: {
+        NavigationConstants.SPLASH: (context) => SplashScreen(),
+      },
+      // home: (userMain != null) ? ChatHome() : LoginNew(),
     );
   }
 }
