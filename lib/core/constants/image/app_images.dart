@@ -33,6 +33,7 @@ class AppImages {
   static String get iconTwitter => "assets/icons/twitter1.svg";
   static String get iconLinkedin => "assets/icons/linkedin.svg";
   static String get iconQuestion => "assets/icons/question.svg";
+  static String get iconWhiteGoogle => "assets/icons/google.svg";
   static String get iconGoogle => "assets/icons/google-icon.svg";
   static String get iconMessage => "assets/icons/icon_message.svg";
   static String get iconMessage2 => "assets/icons/icon_message2.svg";

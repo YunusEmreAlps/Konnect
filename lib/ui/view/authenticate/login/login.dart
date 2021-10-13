@@ -91,7 +91,7 @@ class _LoginNewState extends State<LoginNew> {
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: <Widget>[
                           SvgPicture.asset(
-                            AppImages.iconGoogle,
+                            AppImages.iconWhiteGoogle,
                             height: getProportionateScreenHeight(29),
                           ),
                           Padding(
