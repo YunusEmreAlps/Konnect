@@ -88,7 +88,7 @@ class _ChatScreenState extends State<ChatScreen> {
 
     if (statusMic == PermissionStatus.denied) {
       Fluttertoast.showToast(
-          msg: "Kindly allow mic access for sending voice messages");
+          msg: AppStrings.RECORD_STATUS);
       await Future.delayed(Duration(seconds: 1));
       getPermissions();
     }
@@ -183,7 +183,7 @@ class _ChatScreenState extends State<ChatScreen> {
                 itemBuilder: (context) => [
                   PopupMenuItem(
                     value: 1,
-                    child: Text('Clear Chat'),
+                    child: Text(AppStrings.CLEAR_CHAT),
                   ),
                 ],
               ),
@@ -248,7 +248,7 @@ class _ChatScreenState extends State<ChatScreen> {
                         visible: recordButtonVisible,
                         child: GestureDetector(
                           onTap: () => Fluttertoast.showToast(
-                            msg: "Hold to record, release to send",
+                            msg: AppStrings.RECORD_GUIDE,
                           ),
                           onLongPress: () async {
                             setState(() {

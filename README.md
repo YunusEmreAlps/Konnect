@@ -27,6 +27,7 @@ Simple. Secure. Reliable messaging. Online calls and messaging made easy
 - Use provider for managing state
 - Already logged in to homepage
 - TextInputField decoration like whatsapp
+- Multiple Language (TR/EN)
 
 ## Folder structure
 There's two different folders. Each of them is a Dart project.
@@ -126,6 +127,15 @@ Launch Page               | Login Page             | Chat Page               | C
 :-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
 ![](https://github.com/YunusEmreAlps/Konnect/blob/master/ss/v3_1.png?raw=true)|![](https://github.com/YunusEmreAlps/Konnect/blob/master/ss/v3_2.png?raw=true)|![](https://github.com/YunusEmreAlps/Konnect/blob/master/ss/v3_3.png?raw=true)|![](https://github.com/YunusEmreAlps/Konnect/blob/master/ss/v3_4.png?raw=true)|
 
+## Version 0.1.3 Screenshots
+
+Launch Icon               | Launch Page            | Login Page (EN)               | Login Page (TR)
+:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
+![](https://github.com/YunusEmreAlps/Konnect/blob/master/ss/v4_0.png?raw=true)|![](https://github.com/YunusEmreAlps/Konnect/blob/master/ss/v4_1.png?raw=true)|![](https://github.com/YunusEmreAlps/Konnect/blob/master/ss/v4_2.png?raw=true)|![](https://github.com/YunusEmreAlps/Konnect/blob/master/ss/v4_2_tr.png?raw=true)|
+
+Add User (EN)              | Add User (TR)              | Chat Page (EN)               | Chat Page (TR)
+:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
+![](https://github.com/YunusEmreAlps/Konnect/blob/master/ss/v4_3.png?raw=true)|![](https://github.com/YunusEmreAlps/Konnect/blob/master/ss/v4_3_tr.png?raw=true)|![](https://github.com/YunusEmreAlps/Konnect/blob/master/ss/v4_4.png?raw=true)|![](https://github.com/YunusEmreAlps/Konnect/blob/master/ss/v4_4_tr.png?raw=true)|
 
 <p align="center">
   <a href="https://github.com/YunusEmreAlps/Konnect">

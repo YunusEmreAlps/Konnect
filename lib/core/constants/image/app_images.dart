@@ -37,6 +37,4 @@ class AppImages {
   static String get iconGoogle => "assets/icons/google-icon.svg";
   static String get iconMessage => "assets/icons/icon_message.svg";
   static String get iconMessage2 => "assets/icons/icon_message2.svg";
-  
-
 }

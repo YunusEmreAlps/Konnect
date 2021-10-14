@@ -190,7 +190,7 @@ class _ChatHomeState extends State<ChatHome> {
                     SizedBox(
                       width: 5,
                     ),
-                    Text('Refresh'),
+                    Text(AppStrings.REFRESH),
                   ],
                 ),
               ),
@@ -206,7 +206,7 @@ class _ChatHomeState extends State<ChatHome> {
                     SizedBox(
                       width: 5,
                     ),
-                    Text('Logout'),
+                    Text(AppStrings.LOG_OUT),
                   ],
                 ),
               ),
@@ -223,7 +223,7 @@ class _ChatHomeState extends State<ChatHome> {
                   SizedBox(width: double.infinity),
                   Center(
                     child: Text(
-                      'Click here to add new users',
+                      AppStrings.ADD_USER_BUTTON,
                       style: TextStyle(fontSize: width / 20),
                     ),
                   ),

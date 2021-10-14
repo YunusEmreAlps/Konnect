@@ -69,7 +69,7 @@ class _SearchUsersState extends State<SearchUsers> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Add users'),
+        title: Text(AppStrings.ADD_USERS),
         centerTitle: true,
         backgroundColor: AppColors.colorPrimary,
       ),
@@ -81,7 +81,7 @@ class _SearchUsersState extends State<SearchUsers> {
               child: TextField(
                 controller: _controller,
                 decoration: InputDecoration(
-                  hintText: "Search Users by Name",
+                  hintText: AppStrings.USERNAME, // "Search Users by Name"
                   hintStyle: TextStyle(
                     fontSize: 14, color: AppColors.colorBackButton,
                   ),

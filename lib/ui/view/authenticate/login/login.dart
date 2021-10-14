@@ -21,8 +21,6 @@ class _LoginNewState extends State<LoginNew> {
   Widget build(BuildContext context) {
     SizeConfig().init(context);
     AppLocalizations.of(context);
-    final width = MediaQuery.of(context).size.width;
-    final height = MediaQuery.of(context).size.height;
     return Scaffold(
       body: DecoratedBox(
         position: DecorationPosition.background,
@@ -46,10 +44,11 @@ class _LoginNewState extends State<LoginNew> {
             Column(
               mainAxisAlignment: MainAxisAlignment.end,
               crossAxisAlignment: CrossAxisAlignment.end,
-              children: <Widget>[
+              children: <Widget>[  
+                // Google Button
                 Padding(
                   padding: const EdgeInsets.symmetric(
-                      vertical: 54.0, horizontal: 16.0),
+                      vertical: 64.0, horizontal: 16.0),
                   child: SizedBox(
                     width: double.infinity,
                     height: getProportionateScreenHeight(56),
@@ -80,10 +79,10 @@ class _LoginNewState extends State<LoginNew> {
                         } catch (Exception) {}
                       },
                       style: TextButton.styleFrom(
-                        backgroundColor: Color(0xFF6CD8D1),
+                        backgroundColor: AppColors.colorPrimary,
                         elevation: 0,
                         shape: RoundedRectangleBorder(
-                          side: BorderSide(color: Color(0xFF6CD8D1)),
+                          side: BorderSide(color: AppColors.colorPrimary),
                         ),
                       ),
                       child: Row(
@@ -111,9 +110,14 @@ class _LoginNewState extends State<LoginNew> {
                 ),
               ],
             ),
+            Align(
+              alignment: Alignment(0, 1.0),
+              child: Text(AppStrings.APP_VERSION),
+            )
           ],
         ),
       ),
     );
   }
 }
+

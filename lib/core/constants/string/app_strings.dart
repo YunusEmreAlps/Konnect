@@ -20,6 +20,7 @@ class AppStrings {
   static final String SKIP = AppLocalizations.getString("Skip");
   static final String NEXT = AppLocalizations.getString("Next");
   static final String DONE = AppLocalizations.getString("Done");
+  static final String REFRESH = AppLocalizations.getString("Refresh");
   static final String YES = AppLocalizations.getString("Yes");
   static final String NO = AppLocalizations.getString("No");
   static final String MAYBE = AppLocalizations.getString("Maybe");
@@ -30,6 +31,7 @@ class AppStrings {
   static final String SHOW_ALERT = AppLocalizations.getString("Show Alert Dialog");
   static final String SHOW_BOTTOM_SHEET = AppLocalizations.getString("Show Bottom Sheet");
   static final String WELCOME_BACK = AppLocalizations.getString("Welcome Back");
+  static final String ADD_USERS = AppLocalizations.getString("Add users");
 
   // Buttons
   static final String INTOUCH_NETWORK = AppLocalizations.getString("inTouch Network");
@@ -43,6 +45,8 @@ class AppStrings {
   static final String PASSWORD = AppLocalizations.getString("Password");
   static final String CONFIRM_PASSWORD = AppLocalizations.getString("Confirm Password");
   static final String EMAIL = AppLocalizations.getString("Email");
+  static final String ADD_USER_BUTTON = AppLocalizations.getString("Click here to add new users");
+
 
   static const String FULL_NAME_HINT_TEXT = "Eleanor Pena";
   static const String PASSWORD_HINT_TEXT = "********";
@@ -59,10 +63,14 @@ class AppStrings {
   static final String ALREADY_HAVE_AN_ACCOUNT = AppLocalizations.getString("Already have an account? ");
   static final String LOGIN_GUIDE = AppLocalizations.getString("Sign in with your username and password");
   static final String CONNECT_GOOGLE = AppLocalizations.getString("Connect with Google");
+  static final String CLEAR_CHAT = AppLocalizations.getString("Clear Chat");
+  static final String RECORD_GUIDE = AppLocalizations.getString("Hold to record, release to send");
+  static final String RECORD_STATUS = AppLocalizations.getString("Kindly allow mic access for sending voice messages");
+  static final String NEW_MESSAGE = AppLocalizations.getString("New Message");
 
   // About App
   static const String FONT_FAMILY = "GILROY";
-  static const String APP_VERSION = "v.1.0";
+  static const String APP_VERSION = "v0.1.3";
   static const String APP_NAME = "Konnect";
   static final String APP_DESCRIPTION = "Connecting You From Around The World";
   static final String APP_LONG_DESCRIPTION = "";
@@ -109,3 +117,4 @@ class AppStrings {
   static final String MAIL_ERROR = AppLocalizations.getString('E-Mail not delivered');
   static final String WEB_ERROR = AppLocalizations.getString('Could not open website!');
 }
+

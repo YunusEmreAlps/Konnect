@@ -5,6 +5,7 @@ import 'package:flutter/services.dart';
 // Package imports:
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
+import 'package:konnect/ui/view/authenticate/login/login.dart';
 import 'package:provider/provider.dart';
 
 // Project imports:
