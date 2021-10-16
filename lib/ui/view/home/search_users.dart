@@ -6,7 +6,6 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 
 // Project imports:
 import 'package:konnect/core/constants/core.dart';
-import 'package:konnect/core/init/app_widget.dart';
 import 'package:konnect/core/model/user_model.dart';
 import 'package:konnect/ui/components/auth.dart';
 import 'package:konnect/ui/components/users_list.dart';

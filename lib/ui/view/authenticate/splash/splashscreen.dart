@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 
 // Package imports:
 import 'package:animated_text_kit/animated_text_kit.dart';
-import 'package:flutter_svg/svg.dart';
 
 // Project imports:
 import 'package:konnect/core/constants/core.dart';

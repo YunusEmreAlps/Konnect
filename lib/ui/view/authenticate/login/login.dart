@@ -44,11 +44,11 @@ class _LoginNewState extends State<LoginNew> {
             Column(
               mainAxisAlignment: MainAxisAlignment.end,
               crossAxisAlignment: CrossAxisAlignment.end,
-              children: <Widget>[  
+              children: <Widget>[ 
+                SizedBox(height: AppConstants.defaultPadding / 2,), 
                 // Google Button
                 Padding(
-                  padding: const EdgeInsets.symmetric(
-                      vertical: 64.0, horizontal: 16.0),
+                  padding: const EdgeInsets.symmetric(horizontal: AppConstants.defaultPadding,),
                   child: SizedBox(
                     width: double.infinity,
                     height: getProportionateScreenHeight(56),
@@ -108,6 +108,7 @@ class _LoginNewState extends State<LoginNew> {
                     ),
                   ),
                 ),
+                SizedBox(height: AppConstants.defaultPadding * 4,),
               ],
             ),
             Align(
