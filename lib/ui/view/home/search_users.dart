@@ -31,6 +31,7 @@ class _SearchUsersState extends State<SearchUsers> {
     super.dispose();
   }
 
+  // User must be online for first chat
   void checkUser() {
     userslist.clear();
     if (widget.docList.isNotEmpty) {

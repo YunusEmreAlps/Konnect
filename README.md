@@ -20,6 +20,8 @@ Simple. Secure. Reliable messaging. Online calls and messaging made easy
 
 ## Main Features
 
+A chat app made by Flutter and Firebase. Support login with google account, chat with any user, send text and voice.
+
 - Refactor the code
 - Multiple users with separate chat channels
 - Add server timestamp
@@ -28,6 +30,9 @@ Simple. Secure. Reliable messaging. Online calls and messaging made easy
 - Already logged in to homepage
 - TextInputField decoration like whatsapp
 - Multiple Language (TR/EN)
+
+!! When you were searching user for the first time, a target user must be online for the first conversation. App is working
+
 
 ## Folder structure
 There's two different folders. Each of them is a Dart project.
